@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { songs, Song } from './data/songs'
 import SongCard from './components/SongCard'
 import Player from './components/Player'
 import './App.css'
