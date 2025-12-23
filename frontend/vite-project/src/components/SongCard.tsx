@@ -1,4 +1,4 @@
-import { Song } from '../data/songs'
+import type { Song } from '../types/songs'
 
 interface Props {
     song: Song

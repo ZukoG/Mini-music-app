@@ -1,5 +1,5 @@
-import {useState, useRef, useEffect } from 'react'
-import { Song } from '../data/songs'
+import { useRef, useEffect } from 'react'
+import type { Song } from '../types/songs'
 
 interface Props {
     currentSong: Song | null
